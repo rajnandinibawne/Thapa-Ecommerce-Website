@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    /* position: sticky; */
+}
+
+.twocolumn {
+    /* position: fixed; */
+    display: flex;
+    /* width: 80%; */
+    /* margin-left: 150px; */
+    /* justify-content: space-evenly; */
+    margin-top: 12rem;
+}
+
+.product_images {
+    /* margin-top: 150px; */
+    height: 100px;
+}
+
+.product_data {
+    justify-items: left;
+    /* width: 50%; */
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 120px;
+}
+
+.delivery {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.pictures {
+    height: 120px;
+    width: 120px;
+}
+
+.warranty_icon {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    margin-left: 48px;
+    border-radius: 50%;
+    /* background-color: antiquewhite; */
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 10rem;
+    /* padding: 10rem; */
+    align-items: center;
+    background-color: rgb(249, 247, 245, 0.2);
+}
+
+.head {
+    /* margin: 50px; */
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1.8rem;
+    margin-left: 30px;
+}

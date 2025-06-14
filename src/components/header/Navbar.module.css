@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 60%;
+    margin-top: 60px;
+}
+
+.navbarlink {
+    margin: 30px;
+    font-size: 1.8rem;
+    /* font-weight: 500; */
+    color: black;
+    margin-top: 32px;
+}
+
+.trolley {
+    position: relative;
+    font-size: 3.2rem;
+    vertical-align: middle;
+}
+
+.Total {
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    background-color: rgb(167, 167, 241);
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 0.3rem;
+    /* top: -1%; */
+    left: 95%;
+    /* margin-bottom: 120px; */
+    top: 28%;
+}
+
+.mobnavbtn {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.mobnavicon {
+    height: 50px;
+    width: 50px;
+}
+
+.mobnaviconclose {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navlist {
+        display: none;
+        /* Hide navbar links initially */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navlist.show {
+        display: flex;
+        /* Show navbar links on toggle */
+    }
+    .navbarlink {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .mobnavbtn {
+        display: block;
+        /* Show mobile nav button */
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+}
